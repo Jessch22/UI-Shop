@@ -70,11 +70,8 @@ class Page1 extends StatelessWidget {
                       color: Colors.black,
                     ),
                   ),
-                ],
-              ),
-              Spacer(),
-              Column(
-                children: [
+                  Row(
+                    children:[
                   ElevatedButton(
                     onPressed: () {
                       print('ini tombol mengikuti');
@@ -95,12 +92,15 @@ class Page1 extends StatelessWidget {
                     ),
                     child: Icon(Icons.share, color: Colors.white),
                   ),
+                    ],
+                  ),
                 ],
-              ),
+              ), 
             ],
           ),
         ),
         ),
+        
         SizedBox(height: 16.0),
         Text(
           'Belanja berdasarkan kategori',
