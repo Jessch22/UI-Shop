@@ -34,7 +34,8 @@ class Page1 extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Container(
+        Center(
+        child: Container(
           padding: EdgeInsets.all(16.0),
           width: screenWidth * 0.9,
           decoration: ShapeDecoration(
@@ -98,6 +99,7 @@ class Page1 extends StatelessWidget {
               ),
             ],
           ),
+        ),
         ),
         SizedBox(height: 16.0),
         Text(
